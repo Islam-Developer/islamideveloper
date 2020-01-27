@@ -7,33 +7,63 @@
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
     <style>
         body{
-            background: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwipvtylraTnAhUiAGMBHV90BFsQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fza%2Fmoholoholo-game-lodge.ar.html&psig=AOvVaw1heELzUP-vqMEigQ8MGLdD&ust=1580234196144350");
             font-family: Arial, Helvetica, sans-serif;
-            color:#ddd;
+            color: #eee;
             text-align: center;
-            padding: 50px;
+            position: relative;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            text-shadow: 0 0 10px #333;
+            width: 100vw;
+            height: 100vh;
         }
         a{
-            background-color: #990099;
             padding: 5px;
             border-radius: 3px;
             color: #eee;
             text-decoration: none;
         }
         a:hover{
-            background-color: cadetblue;
+            background-color: #009688;
+        }
+        img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            z-index: -1;
+        }
+        .twitter{
+            background-color: #03A9F4;
+        }
+        .facebook{
+            background-color: #3F51B5;
+        }
+        .centar{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            background-color: #110921;
+            opacity: .8;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #110921;
         }
     </style>
 </head>
 <body>
+    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/131/131587206.jpg">
     <div class="centar">
         <h1>Developer: Islam Ahmed</h1>
         <p>
             Hello, My name is Islam, From Egypt, I live in New Cairo,
             my work is Full Stack Web Developer & Thank You For visit my website.
         </p>
-        <a href="https://twitter.com/islamideveloper" target="_blank">Twitter</a>
-        <a href="https://www.facebook.com/islamideveloper" target="_blank">Facebook</a>
+        <a class="twitter" href="https://twitter.com/islamideveloper" target="_blank">Twitter</a>
+        <a class="facebook" href="https://www.facebook.com/islamideveloper" target="_blank">Facebook</a>
     </div>
 </body>
 </html>
